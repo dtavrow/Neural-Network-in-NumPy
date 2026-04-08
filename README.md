@@ -7,10 +7,9 @@ To build this NN, I performed:
 - Training using mini-batch gradient descent
 - Use of ReLU activations and MSE loss for regression
 
-Contents
-*.ipynb — full implementation of the neural network and experiments
-ts.npy — dataset containing the time-series signals
-Notes
+Contents:
+- NeuralNet_with_NumPy.ipynb: full implementation of the neural network and experiments
+- NN_test_data.npy: dataset containing the time-series signals
 
 This implementation is intended as an educational, from-scratch exploration of NNs. Some parts of the code (e.g., data handling and splitting) are simplified.
 
