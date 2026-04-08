@@ -1,2 +1,17 @@
 # Neural-Network-in-NumPy
-To validate my knowledge of fundamental MLPs, I designed and coded a small Neural Network using only NumPy (and matplotlib) and importantly no AI in the design process. 
+To demonstrate my understanding of fundamental MLPS, I implemented a fully connected neural network from scratch using only NumPy and matplotlib. Building the model from the ground up helped reinforce my understanding of neural networks beyond high level implementations like PyTorch. The network was evaluated on a set of 10 nonlinear time-series functions derived from a course assignment, and incorporated noise in the training split to simulate aleatoric uncertainty. 
+
+To build this NN, I performed:
+- Manual implementation of forward propagation
+- Derivation and implementation of backpropagation
+- Training using mini-batch gradient descent
+- Use of ReLU activations and MSE loss for regression
+
+Contents
+*.ipynb — full implementation of the neural network and experiments
+ts.npy — dataset containing the time-series signals
+Notes
+
+This implementation is intended as an educational, from-scratch exploration of NNs. Some parts of the code (e.g., data handling and splitting) are simplified.
+
+
